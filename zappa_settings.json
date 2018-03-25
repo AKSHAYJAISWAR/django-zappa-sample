@@ -1,0 +1,13 @@
+{
+    "dev": {
+        "aws_region": "us-east-1", 
+        "django_settings": "django_zappa_sample.settings", 
+        "profile_name": "default", 
+        "project_name": "django-zappa-sa", 
+        "runtime": "python2.7", 
+        "s3_bucket": "django-zappa-sample-bucket"
+        "role_name": "lambda_basic_execution",
+        "manage_roles": false,
+        "keep_warm": false
+    }
+}
